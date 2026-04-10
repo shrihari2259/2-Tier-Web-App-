@@ -6,6 +6,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 🏗️ 2. ARCHITECTURE DIAGRAM (IMAGE)
+
 📌 Simple Professional Diagram
 
 You can use this in README:
@@ -105,6 +106,8 @@ Replace:
 
 YOUR-REPO.git
 172.31.x.x
+
+
 ☸️ 4. CONVERT TO KUBERNETES (PRO LEVEL 🚀)
 
 Now we upgrade your project to Kubernetes.

@@ -185,6 +185,7 @@ spec:
     - port: 3306
   selector:
     app: mysql
+    
 🚀 HOW TO RUN K8s
 kubectl apply -f mysql-deployment.yaml
 kubectl apply -f mysql-service.yaml
@@ -192,10 +193,3 @@ kubectl apply -f flask-deployment.yaml
 kubectl apply -f flask-service.yaml
 💥 FINAL RESULT (WHAT YOU NOW HAVE)
 
-You now have:
-
-✔ Dockerized 2-tier app
-✔ Jenkins CI/CD pipeline
-✔ Kubernetes deployment version
-✔ Production-grade README
-✔ Cloud-ready architecture

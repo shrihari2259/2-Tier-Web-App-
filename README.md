@@ -5,7 +5,46 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+🚀 About This Project
 
+This project is a fully containerized Two-Tier Web Application built using Flask (Python) and MySQL, designed and deployed using modern DevOps practices on AWS EC2. It demonstrates the complete lifecycle of a real-world application from development to deployment using CI/CD automation, containerization, and cloud infrastructure management.
+
+The application follows a microservice-style architecture, where the frontend/backend logic (Flask application) interacts with a separate MySQL database service. The entire system is containerized using Docker, ensuring portability, scalability, and consistency across environments.
+
+To automate deployment, a Jenkins CI/CD pipeline is integrated, which pulls code from GitHub, builds a Docker image, and deploys the application on an AWS EC2 instance. This eliminates manual deployment steps and enables continuous delivery.
+
+Additionally, the project is designed to be production-ready with support for:
+
+Environment-based configuration
+Docker networking for service communication
+Reverse proxy support using Nginx (optional enhancement)
+Monitoring integration using Prometheus & Grafana (advanced setup)
+Infrastructure automation using Terraform (optional extension)
+🎯 Key Highlights
+Two-tier architecture (Flask + MySQL)
+Fully containerized using Docker
+CI/CD automation using Jenkins
+Cloud deployment on AWS EC2
+Environment variable-based configuration
+Scalable and portable design
+Production-style DevOps workflow
+🧠 Problem Solved
+
+Traditional deployments require manual setup of servers, dependencies, and configurations. This project solves that by:
+
+Automating build and deployment processes
+Eliminating environment inconsistency issues
+Simplifying application scaling and portability
+Reducing deployment time using CI/CD pipelines
+⚙️ Outcome
+
+This project demonstrates a real-world DevOps workflow where code changes automatically flow from GitHub → Jenkins → Docker → AWS EC2, resulting in a fully deployed application with minimal manual intervention.
+
+🏆 Ideal For
+DevOps Engineering portfolios
+Cloud & DevOps internships
+Resume project showcasing
+CI/CD and Docker learning demonstration
 
 🏗️ 2. ARCHITECTURE DIAGRAM (IMAGE)
 📌 Simple Professional Diagram
